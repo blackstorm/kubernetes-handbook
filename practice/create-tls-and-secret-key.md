@@ -295,7 +295,7 @@ $ openssl x509  -noout -text -in  kubernetes.pem
 ### 使用 `cfssl-certinfo` 命令
 
 ``` bash
-$ cfssl-certinfo -cert kubernetes.pem
+$ cfssl certinfo -cert kubernetes.pem
 ...
 {
   "subject": {
